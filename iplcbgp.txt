@@ -38,7 +38,7 @@ custom_proxy_group=✈ 故障切换`fallback`.*`http://www.gstatic.com/generate_
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
-custom_proxy_group=🚅 直连中转`url-test`((?=.*)^((?!IPLC).)*$)`http://www.gstatic.com/generate_204`500
+custom_proxy_group=🚅 直连中转`url-test`((?=.*)^((?!IPLC|IEPL|专线).)*$)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=✈️ IPLC`select`(IPLC|IEPL|专线)
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连`[]♻️ 自动选择`.*
 
