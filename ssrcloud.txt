@@ -26,12 +26,12 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🎯 全球直连,[]GEOIP,CN
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
-custom_proxy_group=🚀 节点选择`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🎯 全球直连`.*
-custom_proxy_group=🎥 奈飞视频`select`(NF|解锁|飞|Netflix|NETFLIX)`[]🚀 节点选择
-custom_proxy_group=📺 巴哈姆特`select`(台|新北|彰化|TW)`[]🚀 节点选择
+custom_proxy_group=🚀 节点选择`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🎯 全球直连`.*`
+custom_proxy_group=🎥 奈飞视频`select`(NF|解锁|飞|Netflix|NETFLIX)
+custom_proxy_group=📺 巴哈姆特`select`(台|新北|彰化|TW)
 custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`.*
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择
-custom_proxy_group=📲 电报消息`select`[]🚀 节点选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`.*
+custom_proxy_group=📲 电报消息`select`[]🚀 节点选择`.*
 custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🎯 全球直连`.*
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
