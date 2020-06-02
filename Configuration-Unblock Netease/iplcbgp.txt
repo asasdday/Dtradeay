@@ -33,17 +33,17 @@ custom_proxy_group=♻️ 自动选择`url-test`((?=.*)^((?!Windows|iOS).)*$)`ht
 custom_proxy_group=📽️ 奈飞视频`select`(NF|解锁|飞|Netflix|NETFLIX)`[]🚀 节点选择
 custom_proxy_group=📺 巴哈姆特`select`(台|新北|彰化|TW)`[]🚀 节点选择
 custom_proxy_group=🎵 网易云`select`(Windows|iOS)`[]DIRECT
-custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`((?=.*)^((?!Windows|iOS).)*$)
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
 custom_proxy_group=📲 电报消息`select`[]🚀 节点选择`((?=.*)^((?!Windows|iOS).)*$)
-custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]♻️ 自动选择`[]🎯 全球直连`((?=.*)^((?!Windows|iOS).)*$)
+custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]♻️ 自动选择`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=➡️ 故障切换`fallback`((?=.*)^((?!Windows|iOS).)*$)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=🚅 直连中转`url-test`((?=.*)^((?!IPLC|IEPL|专线|回国|Windows|iOS).)*$)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=✈️ IPLC专线`select`(IPLC|IEPL|专线)
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连`[]♻️ 自动选择`((?=.*)^((?!Windows|iOS).)*$)
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连
 
 enable_rule_generator=true
 overwrite_original_rules=true
