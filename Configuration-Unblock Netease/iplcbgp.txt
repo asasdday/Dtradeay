@@ -30,7 +30,7 @@ surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]🚅 直连中转`[]✈️ IPLC专线`[]♻️ 自动选择`[]🎯 全球直连`[]➡️ 故障切换`((?=.*)^((?!Windows|iOS).)*$)
 custom_proxy_group=♻️ 自动选择`url-test`((?=.*)^((?!Windows|iOS).)*$)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=📽️ 奈飞视频`select`((?=NF|解锁|飞|Netflix|NETFLIX)^((?!Windows|iOS).)*$)`[]🚀 节点选择
+custom_proxy_group=📽️ 奈飞视频`select`(NF|解锁|飞|Netflix|NETFLIX)`[]🚀 节点选择
 custom_proxy_group=📺 巴哈姆特`select`(台|新北|彰化|TW)`[]🚀 节点选择
 custom_proxy_group=🎵 网易云`select`(Windows|iOS)`[]DIRECT
 custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`((?=.*)^((?!Windows|iOS).)*$)
