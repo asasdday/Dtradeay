@@ -38,13 +38,13 @@ custom_proxy_group=🇯🇵 日本节点`select`(日本|川日|东京|大阪|泉
 custom_proxy_group=🇰🇷 韩国节点`select`(韩)
 custom_proxy_group=🚀 额外节点`select`((?=.*)^((?!港|HK|东落地|台湾|日|美|新|韩|试|Windows|iOS).)*$)
 custom_proxy_group=🎵 网易云`select`(Windows|iOS)`[]DIRECT
-custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`((?=.*)^((?!Windows|iOS).)*$)
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择
-custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🎯 全球直连`((?=.*)^((?!Windows|iOS).)*$)
+custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
-custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连`((?=.*)^((?!Windows|iOS).)*$)
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连
 
 enable_rule_generator=true
 overwrite_original_rules=true
