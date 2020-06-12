@@ -49,17 +49,8 @@ custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连
 
 rename_node=中国@中
-rename_node=新加坡@新
-rename_node=韩国@韩
-rename_node=日本@日
 rename_node=美国@美
 rename_node=香港@港
-rename_node=台湾@台
-rename_node=印度@印
-rename_node=英国@英
-rename_node=澳大利亚@澳
-rename_node=德国@德
-rename_node=俄罗斯@俄
 
 enable_rule_generator=true
 overwrite_original_rules=true
