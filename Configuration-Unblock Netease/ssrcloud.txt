@@ -48,9 +48,5 @@ custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连
 
-rename_node=中国@中
-rename_node=美国@美
-rename_node=香港@港
-
 enable_rule_generator=true
 overwrite_original_rules=true
