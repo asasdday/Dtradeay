@@ -48,6 +48,7 @@ custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连
 
+rename_node=中国@中
 rename_node=新加坡@新
 rename_node=韩国@韩
 rename_node=日本@日
