@@ -27,8 +27,8 @@ surge_ruleset=🎯 全球直连,[]GEOIP,CN
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
 custom_proxy_group=🚀 节点选择`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 额外节点`[]🎯 全球直连
-custom_proxy_group=🎥 奈飞视频`select`(NF|解锁|飞|Netflix|NETFLIX)
-custom_proxy_group=📺 巴哈姆特`select`(台|新北|彰化|TW)
+custom_proxy_group=🎥 奈飞视频`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 额外节点`(NF|解锁|飞|Netflix|NETFLIX)
+custom_proxy_group=📺 巴哈姆特`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 额外节点`(台|新北|彰化|TW)
 custom_proxy_group=🇭🇰 香港节点`select`(港|HK|东落地)
 custom_proxy_group=🇨🇳 台湾节点`select`(台|新北|彰化|TW)
 custom_proxy_group=🇸🇬 狮城节点`select`(新加坡|坡|狮城|SG)
