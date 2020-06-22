@@ -39,7 +39,7 @@ custom_proxy_group=🇯🇵 日本节点`select`(日本|川日|东京|大阪|泉
 custom_proxy_group=🇰🇷 韩国节点`select`(韩)
 custom_proxy_group=🚀 额外节点`select`((?=.*)^((?!港|HK|东落地|台湾|日|美|新|韩|NTTPC|软银|试|Windows|iOS).)*$)
 custom_proxy_group=🎵 网易云`select`(Windows|iOS)`[]DIRECT
-custom_proxy_group=📲 电报信息`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 额外节点`[]🎯 全球直连
+custom_proxy_group=📲 电报信息`select`[]🚀 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 额外节点`[]🎯 全球直连
 custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 额外节点`[]🎯 全球直连
