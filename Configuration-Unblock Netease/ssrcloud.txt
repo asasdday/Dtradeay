@@ -48,6 +48,51 @@ custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]🎯 全球直连
 
+;rename_node
+rename_node=(.*)美国(\d{2})\s(.*)@美国 $2
+
+rename_node=京畿道板桥\s原生游戏解锁\s@
+rename_node=전라북도\s전주시\s商宽\s@
+rename_node=^日本日本大阪\sオプテージ\sA(\d{2})$@日本 大阪 $1
+rename_node=^日本\s北海道\sオプテージ\sA(\d{2})$@日本 北海道 $1
+rename_node=^日本东京(.*)(\S)$@日本 东京 $2
+rename_node=^日本(.*)(\d{2})(.*)@日本 $2
+rename_node=中国\-日本\s沪日IEPL(.*)(\d{2})(.*)@日本 IEPL $2
+rename_node=中国\-日本\s多协议(.*)(\d{2})(.*)@日本 $2
+
+rename_node=游戏\s韩国\s(\d)(.*)@韩国 游戏 $1
+rename_node=中国\-韩国\sIPLC(.*)(\d{2})(.*)@韩国 IPLC $2
+rename_node=韩国\sSK(.*)@韩国 SK
+rename_node=朝鲜平壤(.*)@朝鲜 平壤
+
+rename_node=新加坡(.*)A(\d{2})@新加坡 $1
+rename_node=中国\-新加坡\sIEPL(.*)(\d{2})(.*)@新加坡 IEPL $2
+rename_node=中国\-新加坡\s{2}IEPL(.*)(\S)$@新加坡 IEPL NF $2
+rename_node=^新加坡\s{2}Singtel(.*)(\S)$@新加坡 Singtel NF $2
+
+rename_node=^游戏\s台湾(.*)([A,B,C])@台湾 游戏 $2
+rename_node=中国\-台湾\sIEPL(.*)(\d{2})(.*)@台湾 IEPL $2
+rename_node=中国\-台湾\sIEPL(.*)([A,B,C,D,E,F])$@台湾 IEPL $2
+rename_node=中国\-台湾\sIPLC(.*)(\d{2})(.*)@台湾 IPLC $2
+
+rename_node=油尖旺御金\·国峯\s名氣通電訊(.*)(\d{2})(.*)@TGT $2
+rename_node=油尖旺御金\·国峯\s環球全域電訊(.*)(\d{2})(.*)@HGC $2
+rename_node=中国\-香港\sIEPL(.*)(\d{2})(.*)@香港 IEPL $2
+rename_node=中国\-香港\sIPLC(.*)(\d{2})(.*)@香港 IPLC $2
+
+rename_node=中国\-俄罗斯(.*)(\d{2})(.*)@俄罗斯 IPLC $2
+rename_node=中国\-印度(.*)(\d{2})(.*)@印度 IPLC $2
+rename_node=中国\-加拿大(.*)(\d{2})(.*)@加拿大 IPLC $2
+rename_node=中国\-英国(.*)(\d{2})(.*)@英国 IPLC $2
+rename_node=中国\-荷兰(.*)(\d{2})(.*)@荷兰 IPLC $2
+rename_node=中国\-澳大利亚(.*)(\d{2})(.*)@澳大利亚 IPLC $2
+rename_node=中国\-德国(.*)(\d{2})(.*)@德国 IPLC $2
+
+rename_node=^回国(.*)A(\d{2})(.*)@回国 $2
+rename_node=^巴西(.*)(\d{2})(.*)@巴西 $2
+rename_node=NTTPC(.*)@NTPC
+rename_node=ASYNCHRONOUS(.*)(\d{2})(.*)@ASYNCHRONOUS $2
+
 
 enable_rule_generator=true
 overwrite_original_rules=true
