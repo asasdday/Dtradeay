@@ -28,8 +28,8 @@ surge_ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SS
 surge_ruleset=🎯 全球直连,[]GEOIP,CN
 surge_ruleset=🐟 漏网之鱼,[]FINAL
 
-custom_proxy_group=🚀 手动选择`select`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外`[]🎯 全球直连
-custom_proxy_group=🎥 奈飞视频`select`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外`(NF|解锁|飞|Netflix|NETFLIX)
+custom_proxy_group=🚀 手动选择`select`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外节点`[]🎯 全球直连
+custom_proxy_group=🎥 奈飞视频`select`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外节点`(NF|解锁|飞|Netflix|NETFLIX)
 custom_proxy_group=📺 巴哈姆特`select`(台|新北|彰化|TW)
 custom_proxy_group=🇭🇰 香港`select`(港|HK|东落地)
 custom_proxy_group=🇨🇳 台湾`select`(台|新北|彰化|TW)
@@ -37,12 +37,12 @@ custom_proxy_group=🇸🇬 狮城`select`(新加坡|狮城|SG)
 custom_proxy_group=🇺🇲 美国`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US)
 custom_proxy_group=🇯🇵 日本`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|NTTPC|软银)
 custom_proxy_group=🇰🇷 韩国`select`(韩)
-custom_proxy_group=🚀 额外`select`((?=.*)^((?!港|HK|东落地|台湾|日|美|新|韩|NTTPC|软银|试|用户|Windows|iOS).)*$)
+custom_proxy_group=🚀 额外节点`select`((?=.*)^((?!港|HK|东落地|台湾|日|美|新|韩|NTTPC|软银|试|用户|Windows|iOS).)*$)
 custom_proxy_group=🎵 网易云`select`(Windows|iOS)`[]DIRECT
-custom_proxy_group=📲 电报`select`[]🚀 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外`[]🎯 全球直连
+custom_proxy_group=📲 电报`select`[]🚀 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外节点`[]🎯 全球直连
 custom_proxy_group=🍎 苹果`select`[]DIRECT`[]🚀 手动选择
 custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🚀 手动选择
-custom_proxy_group=🌍 国外媒体`select`[]🚀 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外`[]🎯 全球直连
+custom_proxy_group=🌍 国外媒体`select`[]🚀 手动选择`[]🇭🇰 香港`[]🇨🇳 台湾`[]🇸🇬 狮城`[]🇯🇵 日本`[]🇺🇲 美国`[]🇰🇷 韩国`[]🚀 额外节点`[]🎯 全球直连
 custom_proxy_group=🎯 全球直连`select`[]DIRECT
 custom_proxy_group=🛑 全球拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
