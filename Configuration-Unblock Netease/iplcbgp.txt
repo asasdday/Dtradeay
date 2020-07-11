@@ -22,7 +22,7 @@ surge_ruleset=🐟 Final,[]FINAL
 
 custom_proxy_group=🚀 Select`select`[]🚅 BGP`[]✈️ IPLC`[]♻️ Auto`[]🎯 Direct`[]➡️ Fallback`((?=.*)^((?!Windows|iOS).)*$)
 custom_proxy_group=♻️ Auto`url-test`((?=.*)^((?!Windows|iOS).)*$)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=📽️ Netflix`select`(NF|解锁|飞|Netflix|NETFLIX)`[]🚀 Select
+custom_proxy_group=🎥 Netflix`select`(NF|解锁|飞|Netflix|NETFLIX)`[]🚀 Select
 custom_proxy_group=📺 Bahamut`select`(台|新北|彰化|TW)`[]🚀 Select
 custom_proxy_group=🎵 Netease`select`(Windows|iOS)`[]DIRECT
 custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🚀 Select
