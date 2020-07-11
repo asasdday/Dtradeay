@@ -36,3 +36,6 @@ custom_proxy_group=➡️ Fallback`fallback`((?=.*)^((?!Windows|iOS).)*$)`http:/
 custom_proxy_group=🚅 BGP`url-test`((?=.*)^((?!IPLC|IEPL|专线|回国|Windows|iOS).)*$)`http://www.gstatic.com/generate_204`500
 custom_proxy_group=✈️ IPLC`select`(IPLC|IEPL|专线)
 custom_proxy_group=🐟 Final`select`[]🚀 Select`[]♻️ Auto`[]🎯 Direct`.*
+
+enable_rule_generator=true
+overwrite_original_rules=true
