@@ -1,0 +1,53 @@
+[custom]
+;不要随意改变关键字，否则会导致出错
+;acl4SSR规则-在线更新版
+
+;去广告：支持
+;自动测速：不支持
+;微软分流：不支持
+;Apple分流：支持
+;增强中国IP段：不支持
+;增强国外GFW：支持
+
+surge_ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+surge_ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+surge_ruleset=🛑 Reject,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+surge_ruleset=🍃 purification,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+surge_ruleset=🎵 Netease,https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list
+surge_ruleset=🎵 Netease,https://raw.githubusercontent.com/tindy2013/subconverter/master/base/rules/lhie1/Netease%20Music%20IP.list
+surge_ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+surge_ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+surge_ruleset=🍎 Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+surge_ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+surge_ruleset=📺 Bhamut,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+surge_ruleset=🌏 Domestic,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+surge_ruleset=🌍 GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+surge_ruleset=🚀 Select,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+surge_ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+surge_ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+surge_ruleset=🎯 Direct,[]GEOIP,CN
+surge_ruleset=🐟 Final,[]FINAL
+
+custom_proxy_group=🚀 Select`select`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇲 USA`[]🇰🇷 SK`[]🚀 Last`[]🎯 Direct
+custom_proxy_group=🎥 Netflix`select`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇲 USA`[]🇰🇷 SK`[]🚀 Last`(NF|解锁|飞|Netflix|NETFLIX)
+custom_proxy_group=📺 Bhamut`select`(台|新北|彰化|台湾)
+custom_proxy_group=🇭🇰 HK`select`(港|HK|东落地)
+custom_proxy_group=🇨🇳 TW`select`(台|新北|彰化|TW|台湾)
+custom_proxy_group=🇸🇬 SG`select`(新加坡|狮城|SG)
+custom_proxy_group=🇺🇲 USA`select`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US)
+custom_proxy_group=🇯🇵 JP`select`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|NTTPC|软银)
+custom_proxy_group=🇰🇷 SK`select`(韩)
+custom_proxy_group=🚀 Last`select`((?=.*)^((?!港|HK|东落地|TW|日|美|新|韩|NTTPC|软银|试|用户|Windows|iOS).)*$)
+custom_proxy_group=🎵 Netease`select`(Windows|iOS)`[]DIRECT
+custom_proxy_group=📲 Telegram`select`[]🚀 Select`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇲 USA`[]🇰🇷 SK`[]🚀 Last`[]🎯 Direct
+custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🚀 Select
+custom_proxy_group=🌏 Domestic`select`[]DIRECT`[]🚀 Select
+custom_proxy_group=🌍 GlobalMedia`select`[]🚀 Select`[]🇭🇰 HK`[]🇨🇳 TW`[]🇸🇬 SG`[]🇯🇵 JP`[]🇺🇲 USA`[]🇰🇷 SK`[]🚀 Last`[]🎯 Direct
+custom_proxy_group=🎯 Direct`select`[]DIRECT
+custom_proxy_group=🛑 Reject`select`[]REJECT`[]DIRECT
+custom_proxy_group=🍃 purification`select`[]REJECT`[]DIRECT
+custom_proxy_group=🐟 Final`select`[]🚀 Select`[]🎯 Direct
+
+
+enable_rule_generator=true
+overwrite_original_rules=true
