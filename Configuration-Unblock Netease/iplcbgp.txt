@@ -9,7 +9,11 @@ surge_ruleset=🎵 Netease,https://raw.githubusercontent.com/tindy2013/subconver
 surge_ruleset=🎯 Direct,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 surge_ruleset=📲 Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 surge_ruleset=🍎 Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
-surge_ruleset=📽️ Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+surge_ruleset=🎮 Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+surge_ruleset=🎮 Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+surge_ruleset=🎮 Game,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+surge_ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+surge_ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list
 surge_ruleset=📺 Bahamut,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
 surge_ruleset=🌏 Domestic,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
 surge_ruleset=🌍 GlobalMedia,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
@@ -22,9 +26,10 @@ surge_ruleset=🐟 Final,[]FINAL
 
 custom_proxy_group=🚀 Select`select`[]🚅 BGP`[]✈️ IPLC`[]♻️ Auto`[]🎯 Direct`[]➡️ Fallback`((?=.*)^((?!Windows|iOS).)*$)
 custom_proxy_group=♻️ Auto`url-test`((?=.*)^((?!Windows|iOS|解锁|网易云|Netease|netease).)*$)`http://www.gstatic.com/generate_204`500
-custom_proxy_group=📽️ Netflix`select`(NF|解锁|飞|Netflix|NETFLIX)`[]🚀 Select
+custom_proxy_group=🎥 Netflix`select`(NF|解锁|飞|Netflix|NETFLIX)`[]🚀 Select
 custom_proxy_group=📺 Bahamut`select`(台|新北|彰化|TW)`[]🚀 Select
 custom_proxy_group=🎵 Netease`select`(Windows|iOS|解锁|网易云|Netease|netease)`[]DIRECT
+custom_proxy_group=🎮 Game`select`.*
 custom_proxy_group=🍎 Apple`select`[]DIRECT`[]🚀 Select
 custom_proxy_group=🌏 Domestic`select`[]DIRECT`[]🚀 Select`[]♻️ Auto
 custom_proxy_group=📲 Telegram`select`[]🚀 Select`((?=.*)^((?!Windows|iOS|网易云|Netease|netease).)*$)
